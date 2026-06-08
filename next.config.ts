@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   },
   basePath: "/Utlkit",
   assetPrefix: "/Utlkit",
+    trailingSlash: true,
+
 
 };
 
