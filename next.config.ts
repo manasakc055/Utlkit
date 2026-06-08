@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: "/Utlkit",
-  assetPrefix: "/Utlkit/",
+  assetPrefix: "/Utlkit",
 
 };
 
