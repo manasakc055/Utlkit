@@ -22,7 +22,7 @@ function PercentageToCGPA() {
       return;
     }
 
-    const result = value / 10 + 0.75;
+    const result = value / 9.5;
 
     setCgpa(Number(result.toFixed(2)));
 

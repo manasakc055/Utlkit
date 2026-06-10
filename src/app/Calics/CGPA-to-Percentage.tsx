@@ -22,7 +22,7 @@ function CGPAConverter() {
       return;
     }
 
-    const result = (value - 0.75) * 10;
+    const result = value * 9.5;
     setPercentage(Number(result.toFixed(2)));
 
     toast.success("Percentage calculated successfully");
